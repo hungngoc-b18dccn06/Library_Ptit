@@ -1,0 +1,7 @@
+#frontend/.htaccess
+#không ó tên file, các file mà k có tên file, ẩn trên windown, ản với người dùng
+# cẩn thận khi thao tác vs các file này
+#mục đích chính : Rewweite URL - tạo url - tạo ra đường dẫn thân thiện
+# file index.php  gố mvc
+RewriteEngine On
+RewriteRule gio-hang-cua-ban.html index.php?controller=cart&action=index
